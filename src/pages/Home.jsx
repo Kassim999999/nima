@@ -9,7 +9,7 @@ function Home() {
       {/* HERO SECTION */}
       <section className="hero">
         <div className="hero-overlay">
-          <div className="hero-content">
+          <div className="hero-content" data-aos="fade-up">
             <span className="hero-tag">
               Welcome to Aurora Spa
             </span>
@@ -46,7 +46,7 @@ function Home() {
 
       {/* SERVICES SECTION */}
       <section className="services-section">
-        <div className="section-header">
+        <div className="section-header" data-aos="fade-up">
           <span>Our Premium Services</span>
           <h2>Relaxation Tailored For You</h2>
           <p>
@@ -56,7 +56,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="services-grid">
+        <div className="services-grid" data-aos="fade-up">
           <div className="service-card">
             <h3>Swedish Massage</h3>
             <p>Relaxing full body massage therapy.</p>
@@ -97,7 +97,7 @@ function Home() {
 
       {/* WHY CHOOSE US */}
 
-<section className="why-section">
+<section className="why-section"  data-aos="fade-right">
   <div className="why-left">
     <span>Why Choose Aurora</span>
 
@@ -141,7 +141,7 @@ function Home() {
 
 {/* TESTIMONIALS */}
 
-<section className="testimonial-section">
+<section className="testimonial-section" data-aos="fade-up">
   <div className="section-header">
     <span>Client Reviews</span>
     <h2>What Our Clients Say</h2>
@@ -176,7 +176,7 @@ function Home() {
 
 {/* CTA SECTION */}
 
-<section className="cta-section">
+<section className="cta-section" data-aos="zoom-in">
   <div className="cta-content">
     <span>Your Wellness Journey Starts Here</span>
 
