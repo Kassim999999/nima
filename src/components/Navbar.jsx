@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import "../css/Navbar.css";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+    const navigate = useNavigate();
+
   return (
     <nav className="navbar">
       <h2 className="logo">Aurora Spa</h2>
@@ -14,9 +17,12 @@ function Navbar() {
         <li><Link to="/contact">Contact</Link></li>
       </ul>
 
-      <button className="book-btn">
-        Book Now
-      </button>
+<button
+  className="book-btn"
+  onClick={() => navigate("/contact")}
+>
+  Book Now
+</button>
     </nav>
   );
 }

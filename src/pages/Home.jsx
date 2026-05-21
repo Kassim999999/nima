@@ -1,6 +1,9 @@
 import "../css/Home.css";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+    const navigate = useNavigate();
+
   return (
     <>
       {/* HERO SECTION */}
@@ -23,13 +26,19 @@ function Home() {
             </p>
 
             <div className="hero-buttons">
-              <button className="book-now">
-                Book Appointment
-              </button>
+<button
+  className="book-now"
+  onClick={() => navigate("/contact")}
+>
+  Book Appointment
+</button>
 
-              <button className="explore-btn">
-                Explore Services
-              </button>
+<button
+  className="explore-btn"
+  onClick={() => navigate("/services")}
+>
+  Explore Services
+</button>
             </div>
           </div>
         </div>
@@ -162,6 +171,31 @@ function Home() {
       </p>
       <h4>— Cynthia W.</h4>
     </div>
+  </div>
+</section>
+
+{/* CTA SECTION */}
+
+<section className="cta-section">
+  <div className="cta-content">
+    <span>Your Wellness Journey Starts Here</span>
+
+    <h2>
+      Ready To Relax & Rejuvenate?
+    </h2>
+
+    <p>
+      Book your spa experience today
+      and let Aurora Spa restore your
+      body, mind and spirit.
+    </p>
+
+<button
+  className="cta-btn"
+  onClick={() => navigate("/contact")}
+>
+  Book Appointment
+</button>
   </div>
 </section>
     </>

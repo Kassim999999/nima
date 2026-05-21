@@ -5,6 +5,13 @@
     position: relative;
 }
 
+.hero-content h1,
+.section-header h2,
+.why-left h2,
+.cta-content h2 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
 .hero-overlay {
     background: rgba(0, 0, 0, 0.35);
     height: 100%;
@@ -218,4 +225,53 @@
 
 .testimonial-card h4 {
     color: #556b2f;
+}
+
+
+/* CTA SECTION */
+
+.cta-section {
+    padding: 120px 8%;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)),
+        url("https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1600") center/cover no-repeat;
+
+    text-align: center;
+    color: white;
+}
+
+.cta-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.cta-content span {
+    color: #d8c7a3;
+    font-weight: 600;
+}
+
+.cta-content h2 {
+    font-size: 64px;
+    margin: 20px 0;
+}
+
+.cta-content p {
+    line-height: 1.9;
+    margin-bottom: 35px;
+}
+
+.cta-btn {
+    background: #556b2f;
+    border: none;
+    color: white;
+    padding: 18px 40px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+    transform: translateY(-4px);
 }

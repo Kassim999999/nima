@@ -21,6 +21,14 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
+      <a
+  href="https://wa.me/254113746777"
+  className="whatsapp-btn"
+  target="_blank"
+>
+  WhatsApp Us
+</a>
+
       <Footer />
     </BrowserRouter>
   );
