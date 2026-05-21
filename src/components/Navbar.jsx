@@ -1,15 +1,25 @@
 import { Link } from "react-router-dom";
-import "../css/Navbar.css";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
+
+import "../css/Navbar.css";
 
 function Navbar() {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className="navbar">
       <h2 className="logo">Aurora Spa</h2>
 
-      <ul className="nav-links">
+      <div
+        className="hamburger"
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
+        ☰
+      </div>
+
+      <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/services">Services</Link></li>
         <li><Link to="/about">About</Link></li>
@@ -17,12 +27,12 @@ function Navbar() {
         <li><Link to="/contact">Contact</Link></li>
       </ul>
 
-<button
-  className="book-btn"
-  onClick={() => navigate("/contact")}
->
-  Book Now
-</button>
+      <button
+        className="book-btn"
+        onClick={() => navigate("/contact")}
+      >
+        Book Now
+      </button>
     </nav>
   );
 }
