@@ -60,6 +60,12 @@
     border-radius: 50px;
     cursor: pointer;
     font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.book-now:hover {
+    transform: translateY(-4px);
+    background: #6b8440;
 }
 
 .explore-btn {
@@ -70,6 +76,12 @@
     border-radius: 50px;
     cursor: pointer;
     font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.explore-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-4px);
 }
 
 
@@ -118,7 +130,8 @@
 }
 
 .service-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
 
 .service-card h3 {
@@ -179,6 +192,13 @@
     background: #f8f5f1;
     padding: 25px;
     border-radius: 20px;
+    transition: 0.35s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-6px);
+    background: white;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
 }
 
 .feature-box h3 {
@@ -215,6 +235,12 @@
     padding: 35px;
     border-radius: 25px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+    transition: 0.35s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial-card p {
