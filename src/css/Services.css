@@ -1,0 +1,123 @@
+.services-page {
+    padding-top: 140px;
+    background: #f8f5f1;
+    min-height: 100vh;
+}
+
+.services-hero {
+    text-align: center;
+    padding: 80px 8%;
+}
+
+.services-hero span {
+    color: #556b2f;
+    font-weight: 600;
+}
+
+.services-hero h1 {
+    font-size: 64px;
+    margin: 20px 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.services-hero p {
+    color: #666;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+.service-category {
+    padding: 40px 8% 80px;
+}
+
+.service-category h2 {
+    margin-bottom: 30px;
+    font-size: 42px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.service-item {
+    background: white;
+    border-radius: 25px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-item h3 {
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: #666;
+}
+
+.service-right {
+    text-align: right;
+}
+
+.service-right h4 {
+    color: #556b2f;
+    margin-bottom: 15px;
+}
+
+.service-right button,
+.package-card button {
+    background: #556b2f;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.treatments-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.treatment-card,
+.package-card {
+    background: white;
+    padding: 35px;
+    border-radius: 25px;
+}
+
+.package-card {
+    margin-bottom: 25px;
+}
+
+.package-card h4 {
+    color: #556b2f;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+
+    .services-hero h1 {
+        font-size: 44px;
+    }
+
+    .service-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .service-right {
+        text-align: left;
+    }
+
+    .treatments-grid {
+        grid-template-columns: 1fr;
+    }
+}
