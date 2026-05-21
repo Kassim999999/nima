@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #f7f3ef;
+}
+
+.logo {
+    color: #556b2f;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.book-btn {
+    padding: 12px 22px;
+    border: none;
+    background: #556b2f;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
