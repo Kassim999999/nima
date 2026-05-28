@@ -17,7 +17,7 @@ function Gallery() {
       <div className="gallery-hero">
         <span>Luxury Ambience</span>
 
-        <h1>Inside Aurora Spa</h1>
+        <h1>Inside Azizi Spa</h1>
 
         <p>
           Step into a sanctuary of calm,

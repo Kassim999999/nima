@@ -1,4 +1,6 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -9,8 +11,14 @@ import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 
 function App() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
 
       <Routes>
@@ -22,15 +30,23 @@ function App() {
       </Routes>
 
       <a
-  href="https://wa.me/254113746777"
-  className="whatsapp-btn"
-  target="_blank"
->
-  WhatsApp Us
-</a>
+        href="https://wa.me/254113746777?text=Hello%20Aurora%20Spa%20🌿%20I%20would%20like%20to%20make%20an%20inquiry."
+        className="whatsapp-btn"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <span className="whatsapp-tooltip">
+          Ready to book an appointment?
+        </span>
+
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+          alt="WhatsApp"
+        />
+      </a>
 
       <Footer />
-    </BrowserRouter>
+    </>
   );
 }
 

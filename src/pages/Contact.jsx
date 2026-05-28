@@ -1,8 +1,13 @@
 import "../css/Contact.css";
 import { useState } from "react";
+import {
+  FaPhoneAlt,
+  FaWhatsapp,
+  FaMapMarkerAlt,
+  FaClock,
+} from "react-icons/fa";
 
 function Contact() {
-
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -20,79 +25,105 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const whatsappNumber = "254797118548";
+    const whatsappNumber = "254796471899";
 
-    const text = `
-Hello Aurora Spa 🌿
+    const text = `Hello Azizi Spa 🌿
 
 I would like to book an appointment.
 
 Name: ${formData.name}
-
 Email: ${formData.email}
-
 Phone: ${formData.phone}
 
 Treatment Request:
-${formData.message}
-    `;
+${formData.message}`;
 
-    const whatsappURL =
-      `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+      text
+    )}`;
 
     window.open(whatsappURL, "_blank");
   };
 
   return (
     <div className="contact-page">
+      <div className="floating-glow glow-1"></div>
+      <div className="floating-glow glow-2"></div>
 
-      <div className="contact-hero">
-        <span>Get In Touch</span>
-        <h1>Book Your Spa Experience</h1>
+      {/* HERO */}
+      <section className="contact-hero">
+        <span>Luxury Wellness</span>
+
+        <h1>
+          Book Your
+          <br />
+          Spa Escape
+        </h1>
 
         <p>
-          Ready to relax? Reach out to Aurora Spa
-          and let us help you book your perfect
-          wellness experience.
+          Step into a world of relaxation,
+          rejuvenation and luxury wellness.
+          Let Azizi Spa create your perfect
+          self-care experience.
         </p>
-      </div>
+      </section>
 
+      {/* CONTACT SECTION */}
       <section className="contact-section">
 
+        {/* LEFT SIDE */}
         <div className="contact-info">
 
           <div className="info-card">
-            <h3>📞 Call Us</h3>
-            <p>+254 700 000 000</p>
+            <div className="icon-wrap">
+              <FaPhoneAlt />
+            </div>
+
+            <h3>Call Us</h3>
+            <p>+254 796 471 899</p>
           </div>
 
           <div className="info-card">
-            <h3>💬 WhatsApp</h3>
+<div className="icon-wrap">
+  <a
+    href="https://wa.me/254796471899"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <FaWhatsapp />
+  </a>
+</div>
 
-            <a
-              href="https://wa.me/254141130403"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Message Us
-            </a>
+            <h3>WhatsApp</h3>
           </div>
 
           <div className="info-card">
-            <h3>📍 Visit Us</h3>
-            <p>Riverside Drive, Nairobi</p>
+            <div className="icon-wrap">
+              <FaMapMarkerAlt />
+            </div>
+
+            <h3>Visit Us</h3>
+            <p>Westlands Metropolitan Estate, Chiromo</p>
           </div>
 
           <div className="info-card">
-            <h3>⏰ Opening Hours</h3>
+            <div className="icon-wrap">
+              <FaClock />
+            </div>
+
+            <h3>Opening Hours</h3>
             <p>Mon - Sun: 9AM - 8PM</p>
           </div>
-
         </div>
 
+        {/* RIGHT SIDE */}
         <div className="contact-form">
 
-          <h2>Book Appointment</h2>
+          <span className="booking-tag">
+            Book Appointment
+          </span>
+
+          <h2>Your Wellness Journey Starts Here</h2>
 
           <form onSubmit={handleSubmit}>
 
@@ -125,7 +156,7 @@ ${formData.message}
             <textarea
               rows="6"
               name="message"
-              placeholder="Tell us the treatment you want..."
+              placeholder="Tell us your preferred treatment..."
               value={formData.message}
               onChange={handleChange}
             ></textarea>
@@ -135,28 +166,36 @@ ${formData.message}
             </button>
 
           </form>
-
         </div>
       </section>
 
+      {/* MAP */}
       <section className="map-section">
 
-  <div className="map-header">
-    <span>Visit Aurora Spa</span>
-    <h2>Find Us Easily</h2>
-  </div>
+        <div className="map-header">
+          <span>Visit Azizi Spa</span>
 
-  <iframe
-    title="Aurora Spa Location"
-    src="https://www.google.com/maps/embed?pb=!1m18"
-    width="100%"
-    height="500"
-    style={{ border: 0 }}
-    allowFullScreen=""
-    loading="lazy"
-  ></iframe>
+          <h2>Find Us Easily</h2>
 
-</section>
+          <p className="map-text">
+            Located in the heart of Westlands,
+            Azizi Spa offers a peaceful sanctuary
+            designed for relaxation and rejuvenation.
+          </p>
+        </div>
+
+<iframe
+  title="Azizi Spa Location"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.835653687359!2d36.8062184!3d-1.2716661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17145cf0c00b%3A0xc6cef0b24af1ce08!2sAzizi%20Spa!5e0!3m2!1sen!2ske!4v1779901602041!5m2!1sen!2ske"
+  width="100%"
+  height="500"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+></iframe>
+
+      </section>
     </div>
   );
 }
