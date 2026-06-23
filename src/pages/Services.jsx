@@ -1,10 +1,10 @@
 import "../css/Services.css";
 
 function Services() {
-  const phone = "254796471899";
+  const phone = "254758974254";
 
   const openWhatsApp = (serviceName, price, duration = "") => {
-    const message = `Hi Azizi Spa 👋 I would like to book ${serviceName}${
+    const message = `Hi Nima Spa 👋 I would like to book ${serviceName}${
       duration ? ` (${duration})` : ""
     } for Ksh ${price}. Please let me know availability.`;
 
@@ -47,7 +47,7 @@ function Services() {
             </div>
 
             <div className="services-right">
-              <h4>Ksh 3,000</h4>
+              <h4>Ksh 4,000</h4>
               <span>60 Minutes</span>
 
               <button
@@ -68,7 +68,7 @@ function Services() {
             </div>
 
             <div className="services-right">
-              <h4>Ksh 4,000</h4>
+              <h4>Ksh 5,000</h4>
               <span>60 Minutes</span>
 
               <button
@@ -89,7 +89,7 @@ function Services() {
             </div>
 
             <div className="services-right">
-              <h4>Ksh 4,500</h4>
+              <h4>Ksh 5,000</h4>
               <span>75 Minutes</span>
 
               <button
@@ -200,7 +200,7 @@ function Services() {
           <span className="package-tag">Best Seller</span>
           <h3>The Royal Escape</h3>
           <p>Massage + Steam Bath + Luxury Body Scrub</p>
-          <h4>Ksh 6,000</h4>
+          <h4>Ksh 7,000</h4>
 
           <button
             onClick={() =>

@@ -6,66 +6,91 @@ import { FaSpa, FaLeaf, FaMagic } from "react-icons/fa";
 function Home() {
     const navigate = useNavigate();
 
- const testimonials = [
+const testimonials = [
   {
-    name: "Chris Muriuki",
+    name: "Swhendhy Cantave",
     review:
-      "I recently visited Azizi Spa and was genuinely impressed. From the peaceful atmosphere to the warm welcome and personalized massage, everything exceeded my expectations.",
+      "I had such a great experience celebrating my birthday at Nima Spa. I received a warm welcome, enjoyed a complimentary glass of wine, played my own music, and the massage was excellent. I will definitely be returning.",
   },
   {
-    name: "Kennedy Indasi",
+    name: "Bivon Obaga",
     review:
-      "Absolutely wonderful experience. The ambiance was serene, beautifully designed, and the staff were warm and professional from the moment I arrived.",
+      "The Moroccan bath was absolutely refreshing and rejuvenating. My skin felt so soft and clean afterwards, and the whole experience was both relaxing and revitalizing. Definitely a must-try.",
   },
   {
-    name: "Bryan Mwaura",
+    name: "Duncan Jared",
     review:
-      "I loved everything about the experience. I left feeling revitalised and ready for the new week. Privacy is guaranteed and the massage was incredibly relaxing.",
+      "The services are truly exceptional. I really enjoyed my time there and will definitely keep coming back for more treatments and relaxation.",
   },
   {
-    name: "Francis Njau",
+    name: "George Ngethe",
     review:
-      "Azizi Spa is a true hidden gem! The ambiance is calming, the staff are incredibly professional and kind, and I left feeling refreshed and pampered.",
+      "Had the most relaxing experience at Nima Spa. The ambiance was peaceful, the staff were amazing, and the massage left me feeling refreshed and stress-free. Highly recommended.",
   },
   {
-    name: "Mark Mutuse",
+    name: "Cate Wangari",
     review:
-      "Such a relaxing experience. The staff were kind, the spa was very clean, and the massage made me feel refreshed. Definitely coming back again.",
+      "The package with scrub and steam was absolutely worth it. My skin and body felt amazing afterwards. Nima Spa truly delivers an outstanding experience.",
   },
   {
-    name: "Gracia Njoroge",
+    name: "Rachael Akoth",
     review:
-      "Wonderful experience at Azizi Spa. The staff were welcoming and professional, and the relaxing atmosphere left me feeling rejuvenated.",
+      "Wonderful spa experience. The atmosphere is calm and welcoming, and the massage left me completely relaxed. Highly recommend to anyone looking to unwind.",
   },
   {
-    name: "Cynthia Akasiba",
+    name: "Frank Maina",
     review:
-      "A wonderfully relaxing experience. The massage eased away all my tension and the peaceful atmosphere made the visit feel truly luxurious.",
+      "Nima Spa exceeded my expectations. The therapists are highly skilled and the environment is peaceful and luxurious. Truly one of the best spa experiences in Nairobi.",
   },
   {
-    name: "Ronald Einstein",
+    name: "Agnes Maina",
     review:
-      "Peaceful ambience, incredibly friendly staff, and rejuvenating treatments. The little details like soothing music made the experience memorable.",
+      "Amazing service from the moment I walked in. I felt relaxed and pampered throughout my visit. The therapist was professional and attentive. Highly recommended.",
   },
   {
-    name: "Eglah",
+    name: "Jackson Travis",
     review:
-      "I had the best body scrub, steam and massage. The ambience was simply amazing 👌",
+      "I was blown away by the exceptional service. The therapists were skilled and attentive, and I left feeling completely relaxed and rejuvenated. I'll definitely be back.",
   },
   {
-    name: "Tarek Essam",
+    name: "Pauline Gathoni",
     review:
-      "A genuine place with a genuine professional owner and talented therapists with magical hands. Highly recommended.",
+      "The best decision I made this week was visiting Nima Spa. The massage was deeply relaxing and the atmosphere was incredibly soothing.",
   },
   {
-    name: "Mary Njeri",
+    name: "Mark Maina",
     review:
-      "Very professional service in a peaceful and tranquil environment. The décor, treatments, and friendly staff make every visit luxurious.",
+      "Nima Spa is so relaxing. The staff are wonderful and the therapist was highly skilled. I felt brand new after my skincare treatment. A perfect five-star experience.",
   },
   {
-    name: "Eric Mugambi Njilu",
+    name: "Jackie The Queen",
     review:
-      "The team at Azizi Spa exhibits ultimate professionalism and goes the extra mile to make you feel valued. Highly recommended.",
+      "Absolutely amazing experience. The massage was perfect, the therapists were professional, and I left feeling completely relaxed. Special thanks to Ann for making it memorable.",
+  },
+  {
+    name: "Rose Mwangi",
+    review:
+      "Professional, clean, and very relaxing. My back has never felt this good. I highly recommend the full body massage.",
+  },
+  {
+    name: "Eliud Wainaina",
+    review:
+      "Nima Spa is the ultimate place to unwind. The massage was incredibly relaxing and the staff were friendly, welcoming, and professional.",
+  },
+  {
+    name: "Abigael Kendi",
+    review:
+      "Excellent spa with very professional therapists. The atmosphere is calm and soothing, making it the perfect place to relax and recharge.",
+  },
+  {
+    name: "Alexandra Selesa",
+    review:
+      "Such an amazing spot. Great service, professional staff, and the complimentary drink with the couples massage was a wonderful surprise.",
+  },
+  {
+    name: "Leonard Njau",
+    review:
+      "I booked the full package and it was worth every shilling. The steam and scrub treatments were fantastic, and the entire experience was luxurious.",
   },
 ];
 
@@ -208,7 +233,7 @@ useEffect(() => {
   </p>
 
   <div className="service-bottom">
-    <h4>Ksh 6,000</h4>
+    <h4>Ksh 5,000</h4>
     <span>90 min</span>
   </div>
 </div>
@@ -255,7 +280,7 @@ useEffect(() => {
 
 <section className="why-section"  data-aos="fade-right">
   <div className="why-left">
-    <span>Why Choose Aurora</span>
+    <span>Why Choose Nima</span>
 
     <h2>
       A Luxury Wellness
@@ -263,7 +288,7 @@ useEffect(() => {
     </h2>
 
     <p>
-      At Aurora Spa, we combine expert care,
+      At Nima Spa, we combine expert care,
       calming environments and premium
       treatments to help you fully relax
       and rejuvenate.
@@ -388,7 +413,7 @@ useEffect(() => {
 <p>
   Step into a world of calm,
   relaxation and luxury wellness.
-  Let Aurora Spa help you unwind,
+  Let Nima Spa help you unwind,
   recharge and feel renewed.
 </p>
 

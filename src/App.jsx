@@ -30,7 +30,7 @@ function App() {
       </Routes>
 
       <a
-        href="https://wa.me/254113746777?text=Hello%20Aurora%20Spa%20🌿%20I%20would%20like%20to%20make%20an%20inquiry."
+        href="https://wa.me/254758974254?text=Hello%20Nima%20Spa%20🌿%20I%20would%20like%20to%20make%20an%20inquiry."
         className="whatsapp-btn"
         target="_blank"
         rel="noreferrer"

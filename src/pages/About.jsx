@@ -23,7 +23,7 @@ function About() {
           </h1>
 
           <p>
-            At Azizi Spa, we create moments of calm,
+            At Nima Spa, we create moments of calm,
             restoration and indulgence through
             expertly curated wellness experiences
             designed to help you reconnect with
@@ -57,7 +57,7 @@ function About() {
           </h2>
 
           <p>
-            Azizi Spa was created as a peaceful
+            Nima Spa was created as a peaceful
             escape from the fast pace of everyday
             life — a sanctuary where relaxation,
             beauty and wellness come together in
@@ -125,7 +125,7 @@ function About() {
 
         <div className="why-header">
 
-          <span>Why Choose Azizi</span>
+          <span>Why Choose Nima</span>
 
           <h2>
             Premium Wellness

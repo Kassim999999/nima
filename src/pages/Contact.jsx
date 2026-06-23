@@ -27,7 +27,7 @@ function Contact() {
 
     const whatsappNumber = "254796471899";
 
-    const text = `Hello Azizi Spa 🌿
+    const text = `Hello Nima Spa 🌿
 
 I would like to book an appointment.
 
@@ -63,7 +63,7 @@ ${formData.message}`;
         <p>
           Step into a world of relaxation,
           rejuvenation and luxury wellness.
-          Let Azizi Spa create your perfect
+          Let Nima Spa create your perfect
           self-care experience.
         </p>
       </section>
@@ -76,17 +76,20 @@ ${formData.message}`;
 
           <div className="info-card">
             <div className="icon-wrap">
-              <FaPhoneAlt />
+              <a href="tel:+254758974254">
+    <FaPhoneAlt />
+</a>
+              
             </div>
 
             <h3>Call Us</h3>
-            <p>+254 796 471 899</p>
+            <p>+254 758 974 254</p>
           </div>
 
           <div className="info-card">
 <div className="icon-wrap">
   <a
-    href="https://wa.me/254796471899"
+    href="https://wa.me/254758974254"
     target="_blank"
     rel="noreferrer"
   >
@@ -95,6 +98,7 @@ ${formData.message}`;
 </div>
 
             <h3>WhatsApp</h3>
+            <p>+254 758 974 254</p>
           </div>
 
           <div className="info-card">
@@ -103,7 +107,7 @@ ${formData.message}`;
             </div>
 
             <h3>Visit Us</h3>
-            <p>Westlands Metropolitan Estate, Chiromo</p>
+            <p>Westlands Brookside drive gate 22, Nairobi</p>
           </div>
 
           <div className="info-card">
@@ -112,7 +116,7 @@ ${formData.message}`;
             </div>
 
             <h3>Opening Hours</h3>
-            <p>Mon - Sun: 9AM - 8PM</p>
+            <p>Mon - Sun: 8AM - 10PM</p>
           </div>
         </div>
 
@@ -173,27 +177,26 @@ ${formData.message}`;
       <section className="map-section">
 
         <div className="map-header">
-          <span>Visit Azizi Spa</span>
+          <span>Visit Nima Spa</span>
 
           <h2>Find Us Easily</h2>
 
           <p className="map-text">
             Located in the heart of Westlands,
-            Azizi Spa offers a peaceful sanctuary
+            Nima Spa offers a peaceful sanctuary
             designed for relaxation and rejuvenation.
           </p>
         </div>
 
 <iframe
-  title="Azizi Spa Location"
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.835653687359!2d36.8062184!3d-1.2716661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17145cf0c00b%3A0xc6cef0b24af1ce08!2sAzizi%20Spa!5e0!3m2!1sen!2ske!4v1779901602041!5m2!1sen!2ske"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.7186596560205!2d36.78999008305055!3d-1.256252460400302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f176b704a3265%3A0x70d9799f6f68c80d!2sNima%20Spa!5e0!3m2!1sen!2ske!4v1782232384740!5m2!1sen!2ske"
   width="100%"
   height="500"
   style={{ border: 0 }}
-  allowFullScreen
+  allowFullScreen=""
   loading="lazy"
   referrerPolicy="no-referrer-when-downgrade"
-></iframe>
+/>
 
       </section>
     </div>

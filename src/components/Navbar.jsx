@@ -67,7 +67,7 @@ function Navbar() {
         /> */}
 
         <h2 className="logo-text">
-          Azizi Spa
+          Nima Spa
         </h2>
       </div>
 

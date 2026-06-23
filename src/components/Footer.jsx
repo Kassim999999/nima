@@ -13,7 +13,7 @@ function Footer() {
   alt="Azizi Spa Logo"
   className="footer-logo"
 /> */}
-          <h2>Azizi Spa</h2>
+          <h2>Nima Spa</h2>
           <p>
             Where relaxation begins.
             Experience luxury wellness
@@ -32,15 +32,15 @@ function Footer() {
 
         <div className="footer-contact">
           <h3>Contact</h3>
-          <p>Metropolitan estate, Prof David Wasawo Dr, Nairobi</p>
-          <p>+254 796 471 899</p>
-          <p>info@azizispa.com</p>
+          <p>Westlands Brookside drive gate 22, Nairobi</p>
+          <p>+254 758 974 254</p>
+          <p>info@nimaspa.com</p>
         </div>
 
       </div>
 
       <div className="footer-bottom">
-        © 2026 Azizi Spa. All rights reserved.
+        © 2026 Nima Spa. All rights reserved.
       </div>
 
     </footer>
