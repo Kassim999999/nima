@@ -2,7 +2,6 @@ import "../css/Home.css";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { FaSpa, FaLeaf, FaMagic } from "react-icons/fa";
-import HeroImg from "../assets/Nima8.png"
 import WhyImg from "../assets/Nima10.png"
 
 function Home() {
