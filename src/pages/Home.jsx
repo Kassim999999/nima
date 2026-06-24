@@ -2,6 +2,8 @@ import "../css/Home.css";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { FaSpa, FaLeaf, FaMagic } from "react-icons/fa";
+import HeroImg from "../assets/Nima8.png"
+import WhyImg from "../assets/Nima10.png"
 
 function Home() {
     const navigate = useNavigate();
@@ -343,7 +345,7 @@ useEffect(() => {
 
   <div className="why-right">
     <img
-      src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=900"
+      src={WhyImg}
       alt="Spa"
     />
   </div>

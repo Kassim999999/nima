@@ -1,6 +1,7 @@
 import "../css/About.css";
 import { useNavigate } from "react-router-dom";
 import { FaSpa, FaLeaf, FaMagic } from "react-icons/fa";
+import StoryImg from "../assets/Nima9.png";
 
 function About() {
 
@@ -41,7 +42,7 @@ function About() {
         <div className="story-image">
 
           <img
-            src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1200"
+            src={StoryImg}
             alt="Azizi Spa"
           />
 

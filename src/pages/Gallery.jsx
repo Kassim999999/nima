@@ -3,12 +3,12 @@ import "../css/Gallery.css";
 function Gallery() {
 
   const images = [
-    "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=900",
-    "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=900",
-    "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=900",
-    "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=900",
-    "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=900",
-    "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=900",
+     "/src/assets/Nima1.png",
+  "/src/assets/Nima2.png",
+  "/src/assets/Nima3.png",
+  "/src/assets/Nima4.png",
+  "/src/assets/Nima6.png",
+  "/src/assets/Nima11.png",
   ];
 
   return (

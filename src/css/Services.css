@@ -287,7 +287,7 @@
     background:
         linear-gradient(rgba(27, 27, 27, 0.82),
             rgba(27, 27, 27, 0.72)),
-        url("https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1600") center/cover no-repeat;
+        url("src/assets/Nima8.png") center/cover no-repeat;
 
     color: white;
 
