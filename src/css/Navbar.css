@@ -373,6 +373,10 @@ body {
         display: flex;
     }
 
+        .light-page .nav-links a {
+            color: white;
+        }
+
     .book-btn {
         display: none;
     }
