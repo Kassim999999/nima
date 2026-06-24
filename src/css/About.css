@@ -23,7 +23,7 @@
     background:
         linear-gradient(rgba(27, 27, 27, 0.82),
             rgba(27, 27, 27, 0.68)),
-        url("images/Nima5.png") center/cover no-repeat;
+        url("/images/Nima5.png") center/cover no-repeat;
 
     display: flex;
     align-items: center;
